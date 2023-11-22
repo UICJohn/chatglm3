@@ -1,10 +1,11 @@
 # chatglm3
 
-TODO: What does this package do
+1. Support more llm args.(eg tempreture)
 
 ## Environment Setup
 
-TODO: What environment variables need to be set (if any)
+export CHATGLM_MODEL_ID="CHATGLM MODEL ID OR LOCAL PATH"
+export CHATGLM_DTYPE="DTYPE FOR QUANTIZATION. (eg. 'q4_0')"
 
 ## Usage
 
