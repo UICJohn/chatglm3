@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "chatglm3"
+version = "0.0.1"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+langchain = ">=0.0.313, <0.1"
+sentencepiece = ">=0.1.99"
+transformers = ">=4.35.2"
+chatglm-cpp = ">=0.2.10"
+accelerate = ">=0.24.1"
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = ">=0.0.4"
+fastapi = "^0.104.0"
+sse-starlette = "^1.6.5"
+
+[tool.langserve]
+export_module = "chatglm3"
+export_attr = "chatglm"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
