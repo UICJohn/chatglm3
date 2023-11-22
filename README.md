@@ -4,8 +4,10 @@
 
 ## Environment Setup
 
-export CHATGLM_MODEL_ID="CHATGLM MODEL ID OR LOCAL PATH"
-export CHATGLM_DTYPE="DTYPE FOR QUANTIZATION. (eg. 'q4_0')"
+```
+export CHATGLM_MODEL_ID="./models/chatglm3-6" # model id or local path
+export CHATGLM_DTYPE="q4_0" #dtype for quantization (eg. 'q4_0')
+```
 
 ## Usage
 
